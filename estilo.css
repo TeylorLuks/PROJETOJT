@@ -4,9 +4,28 @@ body {
     font-family: sans-serif;
 }
 
+/* Css do navbar responsivo */
+
 nav {
     width: 100%;
     background-color: #333a56;
+    text-align: right;
+}
+
+/* PFV TEYLOR N BUGA A LOGO KSAUHSAUHSAUSHFDSFS */
+
+.logo {
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 4%;
+    margin-top: 3px;
+}
+
+.logo p {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
 }
 
 ul {
@@ -22,7 +41,7 @@ ul li {
 }
 
 ul li:hover {
-    background-color: #e91e63;
+    background-color: #52FFB8;
 }
 
 ul li a {
@@ -59,6 +78,82 @@ ul li a {
     }
     .active {
         display: block;
-        animation-delay: 2s;
     }
+}
+
+/* CSS do conteudo principal */
+
+.content {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* transform: translate(-50%, -50%); é oq ta salvando no responsivo, n apaga nem fudeno */
+
+.botoes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.bot1, .bot2 {
+    width: 300px;
+    height: 90px;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.bot1 a, .bot2 a {
+    color: #fffdfd;
+    transition: all .3s ease;
+}
+
+.bot1 a:hover {
+    color: #333a56;
+} 
+
+.bot2 a:hover {
+    color: #52FFB8;
+} 
+
+.bot1 {
+    background-color: #333a56;
+    transition: all .3s ease-in;
+    color: #fffdfd;
+}
+
+.bot1 a {
+    text-decoration: none;
+}
+  
+.bot1:hover {
+    background: #52FFB8;
+    color: #333a56;
+    box-shadow: inset 0 0 0 3px #333a56;
+}
+
+.bot2 {
+    background-color: #52FFB8;
+    transition: all .3s ease-in;
+    color: #fffdfd;
+}
+
+.bot2 a {
+    text-decoration: none;
+}
+  
+.bot2:hover {
+    background: #333a56;
+    color: #52FFB8;
+    box-shadow: inset 0 0 0 3px #52FFB8;
 }
