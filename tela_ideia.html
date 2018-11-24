@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Ideias do mundo</title>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo-ideia.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section>
+        <div>
+            <div class="logo">
+                <p>logo</p>
+            </div>
+            <nav>
+                <div class="toggle">
+                    <div class="menu"><i class="fa fa-bars aria-hidden=" true"></i></div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="#">LogIn</a></li>
+                    <li><a href="social.html">Social</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="content">
+
+        <div id="contact-form">
+            <div>
+                <h1>Sabe aquela ideia genial?</h1>
+                <h4>Chegou a hora de você demonstrar sua criatividade!</h4>
+            </div>
+
+            <p id="failure">Houve algum problema. Tente outra vez!</p>
+            <p id="success">Sua mensagem foi recebida com sucesso!</p>
+
+            <form action="#" method="post">
+                <div>
+                    <label for="name">
+                        <span class="required">Nome:</span>
+                        <input type="text" id="name" name="name" value="" placeholder="Seu Nome" required="required"
+                            tabindex="1" autofocus="autofocus" class="widthInput"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="email">
+                        <span class="required">Email:</span>
+                        <input type="email" id="email" name="email" value="" placeholder="Seu e-mail" tabindex="2"
+                            required="required" class="widthInput"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="message">
+                        <span class="required">Ideia:</span>
+                        <textarea id="message" name="message" placeholder="Escreva aqui a sua Ideia!" tabindex="5"
+                            required="required" class="widthInput"></textarea>
+                    </label>
+                </div>
+
+                <div class="button">
+                    <button type="submit" name="submit" id="submit"><p>Enviar sua mensagem</p></button>
+                </div>
+
+            </form>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" "></script>
+    <script type=" text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
