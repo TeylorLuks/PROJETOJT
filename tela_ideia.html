@@ -35,46 +35,18 @@
     </section>
 
     <section class="content">
-
-        <div id="contact-form">
-            <div>
-                <h1>Sabe aquela ideia genial?</h1>
-                <h4>Chegou a hora de você demonstrar sua criatividade!</h4>
+        <div class="wrapper">
+            <div class="contact-form">
+                <div class="input-fields">
+                    <input type="text" class="input" placeholder="Nome">
+                    <input type="text" class="input" placeholder="Email">
+                    <input type="text" class="input" placeholder="Telefone">
+                </div>
+                <div class="msg">
+                    <textarea placeholder="Ideia"></textarea>
+                    <div class="btn">Enviar</div>
+                </div>
             </div>
-
-            <p id="failure">Houve algum problema. Tente outra vez!</p>
-            <p id="success">Sua mensagem foi recebida com sucesso!</p>
-
-            <form action="#" method="post">
-                <div>
-                    <label for="name">
-                        <span class="required">Nome:</span>
-                        <input type="text" id="name" name="name" value="" placeholder="Seu Nome" required="required"
-                            tabindex="1" autofocus="autofocus" class="widthInput"/>
-                    </label>
-                </div>
-
-                <div>
-                    <label for="email">
-                        <span class="required">Email:</span>
-                        <input type="email" id="email" name="email" value="" placeholder="Seu e-mail" tabindex="2"
-                            required="required" class="widthInput"/>
-                    </label>
-                </div>
-
-                <div>
-                    <label for="message">
-                        <span class="required">Ideia:</span>
-                        <textarea id="message" name="message" placeholder="Escreva aqui a sua Ideia!" tabindex="5"
-                            required="required" class="widthInput"></textarea>
-                    </label>
-                </div>
-
-                <div class="button">
-                    <button type="submit" name="submit" id="submit"><p>Enviar sua mensagem</p></button>
-                </div>
-
-            </form>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" "></script>
