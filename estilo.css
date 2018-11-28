@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Euroforence', sans-serif;
 }
 
 /* Css do navbar responsivo */
@@ -11,8 +11,6 @@ nav {
     background-color: #333a56;
     text-align: right;
 }
-
-/* PFV TEYLOR N BUGA A LOGO KSAUHSAUHSAUSHFDSFS */
 
 .logo {
     position: absolute;
@@ -26,6 +24,10 @@ nav {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
+}
+
+.logo span {
+    color: #f6c60e;
 }
 
 ul {
