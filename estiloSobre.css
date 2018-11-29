@@ -7,6 +7,15 @@
     background-position: center center;
 }
 
+.imagemLogo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .texto {
     font-family: 'Eurofourence', sans-serif;
     padding: 75px 50px 50px 50px;
@@ -19,9 +28,12 @@
 }
 
 .texto p {
+    position: absolute;
     font-weight: 600;
     color: #868686;
     text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .rodape {
