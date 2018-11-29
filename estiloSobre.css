@@ -1,0 +1,13 @@
+.texto {
+    font-family: 'Eurofourence', sans-serif;
+    padding: 75px 50px 50px 50px;
+    font-size: 20px;
+}
+
+.texto h1, .texto h3 {
+    text-transform: uppercase;
+}
+
+.texto p {
+    text-align: justify;
+}
