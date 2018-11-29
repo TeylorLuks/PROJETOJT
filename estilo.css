@@ -26,6 +26,10 @@ nav {
     color: #fff;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .logo span {
     color: #f6c60e;
 }
@@ -53,6 +57,7 @@ ul li a {
     font-size: 12px;
     font-weight: 200;
 }
+
 .toggle {
     width: 100%;
     padding: 10px 20px;
@@ -64,22 +69,29 @@ ul li a {
     display: none;
 }
 
-@media (max-width:768px) 
-{
-    .toggle 
-    {
+@media (max-width:768px) {
+    .toggle  {
         display: block;
     }
+
     ul {
         width: 100%;
         display: none;
     }
+
     ul li {
         display: block;
         text-align: center;
     }
+
     .active {
         display: block;
+    }
+}
+
+@media (max-width:768px) {
+    .content {
+        height: 150vh;
     }
 }
 
@@ -87,6 +99,7 @@ ul li a {
 
 .content {
     position: absolute;
+    overflow: scroll;
     padding: 0;
     margin: 0;
     width: 100%;

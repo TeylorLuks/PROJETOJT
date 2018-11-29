@@ -1,13 +1,57 @@
+.img {
+    width: 100%;
+    height: 40vh;
+    background-image: url('_imagens/imgSobre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .texto {
     font-family: 'Eurofourence', sans-serif;
     padding: 75px 50px 50px 50px;
     font-size: 20px;
 }
 
-.texto h1, .texto h3 {
+.texto h1 {
+    color: #868686;
     text-transform: uppercase;
 }
 
 .texto p {
+    font-weight: 600;
+    color: #868686;
     text-align: justify;
+}
+
+.rodape {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #333a56;
+    bottom: 0;
+    padding: 10px;
+}
+
+.rodape p {
+    color: #fff;
+}
+
+@media (max-width:768px) {
+    .rodape {
+        text-align: left;
+        height: 8vh;
+    }
+    
+    .rodape a {
+        display: none;
+    }
+    
+    .rodape p {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 5px;
+        inline-size: 100%;
+    }
 }
